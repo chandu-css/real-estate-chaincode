@@ -1,0 +1,21 @@
+{
+	"name": "realestate_network",
+	"version": "1.0.0",
+	"description": "NodeJS Application Accessing The Realestate Chaincode on Fabric Network",
+	"main": "index.js",
+	"scripts": {
+		"test": "rm -rf identity && node index.js"
+	},
+	"author": "Chandraprakash",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"express": "^4.18.2",
+		"fabric-client": "~1.4.20",
+		"fabric-network": "~2.2.20",
+		"js-yaml": "^4.1.0",
+		"pug": "^3.0.2"
+	},
+	"devDependencies": {
+		"eslint": "^8.56.0"
+	}
+}
